@@ -15,6 +15,8 @@ Use `git clone` or download the zip if you want to play with the examples.
 
 ### Instructions
 
+Anything with brackets must be replaced with the file/folder name. Example is `[input_filename].scss` would be `variables.scss`.
+
 1. Make sure you have Ruby installed
 2. Open your terminal and type `sudo gem install sass`
 3. Check to see if Sass is installed by typing `sass --version`. It should return a version number. If not, repeat step 2.
