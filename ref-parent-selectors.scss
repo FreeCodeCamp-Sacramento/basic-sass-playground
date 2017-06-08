@@ -1,0 +1,21 @@
+// Demostration on using the reference parent selector - & symbol
+
+a {
+  text-decoration: none;
+  color: thistle;
+
+  &:hover,
+  &:focus {
+    color: peachpuff;
+  }
+}
+
+.main {
+  &-header {
+    background-color: lightblue;
+  }
+
+  &-footer {
+    background-color: plum;
+  }
+}

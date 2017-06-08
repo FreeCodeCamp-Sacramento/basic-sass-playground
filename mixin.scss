@@ -1,0 +1,16 @@
+// Example of how to use the @mixin directive.
+
+@mixin button-style($color, $padding, $border, $radius) {
+	background-color: 	$color;
+	padding:			$padding;
+	border:			$border;
+	border-radius:		$radius;
+}
+
+.button-small {
+	@include button-style(lightblue, 16px, solid 1px black, 5%);
+}
+
+.button-large {
+	@include button-style(red, 30px, solid 3px black, 5%);
+}
