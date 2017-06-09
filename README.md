@@ -24,4 +24,3 @@ Anything with brackets must be replaced with the file/folder name. Example is `[
 5. To convert a scss file, type `sass [input_filename].scss:[output_filename].css` in the terminal
 6. To watch the files and automatically convert changes, type `sass [input_filename].scss:[output_filename].css --watch` in the terminal
 7. To convert a whole directory with scss files into another directory, type `sass [input_directory_name]:[output__directory_name] --watch` in the terminal
- 

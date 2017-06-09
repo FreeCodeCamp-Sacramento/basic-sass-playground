@@ -1,0 +1,8 @@
+.secondary-content {
+  @include flex($direction: row, $justify: space-around);
+  padding: 20px;
+}
+
+.secondary-content__item {
+  padding: 10px;
+}

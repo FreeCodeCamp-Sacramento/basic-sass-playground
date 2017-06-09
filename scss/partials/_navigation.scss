@@ -1,0 +1,7 @@
+.main-nav-ul {
+  @include flex($direction: row, $justify: flex-end);
+}
+
+.main-nav__item {
+  margin-right: 5%;
+}

@@ -1,0 +1,8 @@
+body {
+  height: 100vh;
+  @include flex($justify: space-between);
+}
+
+.container {
+  margin: 0;
+}

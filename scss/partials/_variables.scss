@@ -1,0 +1,12 @@
+$color-text-primary: #fff;
+$color-text-secondary: #444;
+$bg-color-primary: #55dd88;
+
+$font-size-primary: 1.25em;
+
+@mixin flex($display: flex, $direction: column, $justify: space-between, $align: center) {
+  display: $display;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-content: $align;
+}
