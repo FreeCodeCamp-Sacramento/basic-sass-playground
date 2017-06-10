@@ -1,10 +1,11 @@
 // To create variables, use the $[variable_name] and store a value in it. Then use it by calling the variable name.
 
-$font-size:       1.5em;
+$font-size:       1em;
 $font-family:     Monospace, Arial, sans-serif;
-$font-color:    tomato;
+$font-color:    lightblue;
 
 h1 {
+  color: $font-color;
   font-size: $font-size;
   font-family: $font-family;
 }

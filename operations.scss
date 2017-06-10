@@ -1,0 +1,15 @@
+$font-base: 16px;
+$font-small: $font-base / 2;
+$font-medium: $font-base * 1.25;
+$font-large: $font-base * 2;
+$color-base: #fff;
+$color-primary: $color-base - #576921;
+
+p {
+  font-size: $font-base;
+  font-size: $font-small;
+  font-size: $font-medium;
+  font-size: $font-large;
+  color: $color-base;
+  color: $color-primary;
+}
